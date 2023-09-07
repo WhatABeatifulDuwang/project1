@@ -4,33 +4,45 @@ body{
     background-size: 2000px;
 }
 
-#navbar{
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     list-style: none;
     font-weight: bold;
-    margin-bottom: 10px;
-    width: 100%;
-    text-align: center;
     background-color: lightcoral;
-    height:40px;
+    height: 40px;
+    padding: 10px;
+    width: 100%;
 }
 
-#navbar ul, li{
+#navbar ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    width: 100%;
 }
 
 #navbar li a{
     padding: 10px;
+    display: block;
     text-decoration: none;
     font-weight: bold;
     width: 18%;
+    text-align: center;
     color: black;
     background-color: lightcoral;
     float: left;
+    border-style: solid;
 }
 
-#nav li a:hover {
-    color: #FFFFFF;
-    background-color: #35af3b;
+#content{
+    border-style: solid;
+    background: rgba(255,255,255,0.5);
+    border-color: lightcoral;
+    width: 96.5%;
+    height: 600px;
+    margin-top: 20px;
+    padding: 10px;
 }
