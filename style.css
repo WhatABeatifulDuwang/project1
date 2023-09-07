@@ -1,31 +1,36 @@
 body{
-    background: black;
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url("https://lp-cms-production.imgix.net/2021-02/shutterstockRF_787331263.jpg");
-    background-size: auto;
-    color: black;
+    background-size: 2000px;
 }
 
-
-
-
-#buttons ul{
-    alignment: center;
-}
-
-
-#buttons li {
-    float: left;
-    alignment: center;
+#navbar{
     list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
     text-align: center;
-    background-color: green;
-    margin-right: 5px;
-    width: 150px;
-    line-height: 60px;
+    background-color: lightcoral;
+    height:40px;
 }
 
-#buttons li a{
+#navbar ul, li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li a{
+    padding: 10px;
     text-decoration: none;
+    font-weight: bold;
+    width: 18%;
+    color: black;
+    background-color: lightcoral;
+    float: left;
+}
+
+#nav li a:hover {
     color: #FFFFFF;
-    display: block;
+    background-color: #35af3b;
 }
