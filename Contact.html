@@ -2,21 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <main>
     <h1>Contact</h1>
-</main>
-<nav id="navbar">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Interview.html">Interview</a></li>
-        <li><a href="Personalia.html">About me</a></li>
-        <li><a href="Projects.html">Projects</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-    </ul>
-</nav>
+    </main>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Interview.html">Interview</a></li>
+            <li><a href="Personalia.html">About me</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+<div id="content">
+    <h1>Contact</h1>
+    <p>
+        You can reach me on the follow platforms:
+        <a href=""></a>
+        <a href=""></a>
+    </p>
+    <form action="Contact.html">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name"><br>
+        <label for="e-mail">E-Mail:</label><br>
+        <input type="email" id="e-mail"><br>
+        <label for="number">Phone number:</label><br>
+        <input type="number" id="number"><br>
+        <label for="question">Question:</label><br>
+        <input type="text" id="question"><br>
+        <p>Did you like this website?</p>
+        <label for="yes-check">Yes</label>
+        <input type="radio" id="yes-check" checked>
+        <label for="no-check">No</label>
+        <input type="radio" id="no-check"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
 </body>
