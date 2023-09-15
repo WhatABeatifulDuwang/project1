@@ -53,7 +53,7 @@ body{
     background-color: crimson !important;
 }
 
-#content{
+.content{
     border-style: solid;
     background: rgba(255,255,255,0.5);
     border-color: lightcoral;
@@ -61,6 +61,30 @@ body{
     height: 600px;
     margin-top: 20px;
     padding: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#text{
+
+}
+
+#images img{
+    height: 350px;
+    width: 500px;
+    border-color: lightcoral;
+    border-style: solid;
 }
 
 .logo{
@@ -89,7 +113,6 @@ label{
 
 #list{
     padding: 0;
-    alignment: left;
     margin-right: 100px;
 }
 
