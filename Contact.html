@@ -7,7 +7,7 @@
 </head>
 <body>
 <main>
-    <h1>Contact</h1>
+    <h1 class="mainTitle">Contact</h1>
     </main>
     <nav id="navbar">
         <ul>
@@ -15,15 +15,16 @@
             <li><a href="Interview.html">Interview</a></li>
             <li><a href="Personalia.html">About me</a></li>
             <li><a href="Projects.html">Projects</a></li>
-            <li><a href="Contact.html">Contact</a></li>
+            <li><a class="activeTab" href="Contact.html">Contact</a></li>
         </ul>
     </nav>
 <div id="content">
     <h1>Contact</h1>
     <p>
-        You can reach me on the follow platforms:
-        <a href=""></a>
-        <a href=""></a>
+        You can reach me on the following platforms:<br>
+        <a href="https://github.com/WhatABeatifulDuwang"><img class="logo" src="github-mark.png" alt="github"></a>
+        <a href="https://facebook.com/"><img class="logo" src="facebook.png" alt="facebook"></a>
+        <a href="https://linkedin.com/"><img id="linkedin" src="linkedin.svg" alt="linkedin"></a>
     </p>
     <form action="Contact.html">
         <label for="name">Name:</label><br>
@@ -36,9 +37,9 @@
         <input type="text" id="question"><br>
         <p>Did you like this website?</p>
         <label for="yes-check">Yes</label>
-        <input type="radio" id="yes-check" checked>
+        <input type="radio" id="yes-check" name="radio" checked>
         <label for="no-check">No</label>
-        <input type="radio" id="no-check"><br><br>
+        <input type="radio" id="no-check" name="radio"><br><br>
         <input type="submit" value="Submit">
     </form>
 </div>
