@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("https://lp-cms-production.imgix.net/2021-02/shutterstockRF_787331263.jpg");
     background-size: 2000px;
+    padding-left: 20px;
 }
 
 .mainTitle{
@@ -19,9 +20,9 @@ body{
     align-items: center;
     list-style: none;
     font-weight: bold;
-    height: 40px;
-    padding: 10px;
+    height: 20vh;
     width: 100%;
+    padding: 10px;
 }
 
 #navbar ul{
@@ -37,7 +38,7 @@ body{
     display: block;
     text-decoration: none;
     font-weight: bold;
-    width: 18%;
+    width: 17.7%;
     text-align: center;
     color: black;
     background-color: lightcoral;
@@ -55,10 +56,10 @@ body{
 
 .content{
     border-style: solid;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255, 0.5);
     border-color: lightcoral;
-    width: 96.5%;
-    height: 700px;
+    width: 95%;
+    height: 70%;
     margin-top: 20px;
     padding: 10px;
 }
@@ -127,7 +128,7 @@ label{
 }
 
 #question{
-    width: 500px;
+    width: 50vw;
     height: 50px;
 }
 
@@ -147,4 +148,13 @@ label{
 #list li p{
     font-size: 18px;
     font-weight: normal;
+}
+
+p{
+    font-size: 20px;
+}
+
+footer{
+    font-weight: bold;
+    color: white;
 }
