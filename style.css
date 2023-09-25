@@ -1,8 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("https://lp-cms-production.imgix.net/2021-02/shutterstockRF_787331263.jpg");
-    background-size: 2000px;
-    padding-left: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 95%;
+    padding: 10px;
+
 }
 
 .mainTitle{
@@ -14,36 +20,30 @@ body{
     width: 175px;
 }
 
-.navbar{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+#navbar{
     list-style: none;
     font-weight: bold;
-    height: 20vh;
     width: 100%;
-    padding: 10px;
+    margin: 0;
 }
 
 #navbar ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    width: 100%;
+    width: 104%;
+    padding: 0;
 }
 
 #navbar li a{
-    padding: 10px;
-    display: block;
     text-decoration: none;
     font-weight: bold;
-    width: 17.7%;
     text-align: center;
     color: black;
-    background-color: lightcoral;
+    background-color: lightcoral;;
     float: left;
     border-style: solid;
+    padding: 10px;
+    width: 18%;
 }
 
 #navbar li a:hover{
@@ -55,12 +55,11 @@ body{
 }
 
 .content{
-    border-style: solid;
     background: rgba(255,255,255, 0.5);
+    border-style: solid;
     border-color: lightcoral;
-    width: 95%;
     height: 70%;
-    margin-top: 20px;
+    width: 100%;
     padding: 10px;
 }
 
@@ -78,12 +77,14 @@ h3{
 
 .column{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     flex: 1;
 }
 
-#text{
+.text{
     font-size: 18px;
+    padding: 10px;
 }
 
 .images{
@@ -91,40 +92,43 @@ h3{
 }
 
 .images img{
-    margin-top: 20px;
-    margin-left: 125px;
-    height: 300px;
-    width: 375px;
     border-color: lightcoral;
     border-style: solid;
+    height: 250px;
+    width: 375px;
+}
+
+#panda{
+    border-color: lightcoral;
+    border-style: solid;
+    height: 20%;
+    width: 30%;
+    margin-top: 50px;
 }
 
 .images p{
-    margin-left: 125px;
     font-size: 16px;
     font-weight: bold;
-    margin-top: -5px;
 }
 
 iframe{
-    margin-top: 50px;
-    margin-left: 125px;
-    height: 250px;
-    width: 375px;
     border-color: lightcoral;
     border-style: solid;
+    height: 250px;
+    width: 375px;
+    margin-top: 50px;
 }
 
 .logo{
-    width: 25px;
     height: 25px;
+    width: 25px;
     padding-top: 20px;
     padding-left: 5px;
 }
 
 #linkedin{
-    width: 100px;
     height: 25px;
+    width: 100px;
     padding-top: 20px;
     padding-left: 5px;
 }
@@ -136,26 +140,8 @@ label{
 }
 
 #question{
-    width: 50vw;
     height: 50px;
-}
-
-#list{
-    padding: 0;
-    margin-right: 100px;
-}
-
-#list li{
-    list-style-type: none;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-}
-
-#list li p{
-    font-size: 18px;
-    font-weight: normal;
+    width: 50vw;
 }
 
 #panda{
