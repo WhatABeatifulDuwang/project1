@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./style.css">
+    <script>
+        function popUp() {
+            alert("Thank you for your feedback!");
+        }
+    </script>
 </head>
 <body>
 <main>
@@ -42,7 +47,7 @@
         <input type="radio" id="yes-check" name="radio" checked>
         <label for="no-check">No</label>
         <input type="radio" id="no-check" name="radio"><br><br>
-        <input type="submit" value="Submit">
+        <input onclick="popUp()" type="submit" value="Submit">
     </form>
     </div>
 </div>
@@ -50,3 +55,4 @@
 <footer>
     <p>© Ody Chen, inc. All rights reserved.</p>
 </footer>
+</html>
