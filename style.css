@@ -146,6 +146,7 @@ label{
 #question{
     height: 50px;
     width: 50vw;
+    text-align: left;
 }
 
 p{
