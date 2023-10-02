@@ -10,9 +10,10 @@
             const name = document.getElementById("name").value;
             const email = document.getElementById("e-mail").value;
             const number = document.getElementById("number").value;
+            const comment = document.getElementById("comment").value;
 
-            if (name === ""|| email === ""|| number === ""){
-                alert("Please fill in the required data")
+            if (comment === "Please fill in..."){
+                alert("I would appreciate it if you could leave a comment :)")
             }
 
             if (name !== "" && email !== "" && number !== ""){
@@ -50,8 +51,8 @@
         <input type="email" id="e-mail" name="e-mail" required><br>
         <label for="number">Phone number:</label><br>
         <input type="number" id="number" name="number" required><br>
-        <label for="question">Question:</label><br>
-        <textarea id="question" name="question">Please fill in...</textarea><br>
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" name="comment">Please fill in...</textarea><br>
         <p>Did you like this website?</p>
         <label for="yes-check">Yes</label>
         <input type="radio" id="yes-check" name="radio" checked>
