@@ -153,6 +153,33 @@ p{
     font-weight: bold;
 }
 
+table{
+    width: 100%;
+}
+
+tr:nth-child(odd){
+    background-color: rgba(255,255,255,0.5);
+}
+
+thead, tr:nth-child(even){
+    background-color: white;
+}
+
+table, thead, td{
+    border-style: solid;
+    border-color: lightcoral;
+    border-collapse: collapse;
+}
+
+thead{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+td{
+    font-weight: bold;
+}
+
 footer{
     font-weight: bold;
     color: white;
