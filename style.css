@@ -6,8 +6,9 @@ body{
     background-position: center;
     background-attachment: fixed;
     height: 100%;
-    width: 95%;
+    width: 100%;
     padding: 10px;
+    overflow-x: hidden;
 }
 
 .mainTitle{
@@ -22,7 +23,7 @@ body{
 #navbar{
     list-style: none;
     font-weight: bold;
-    width: 103.5%;
+    width: 100%;
     margin: 0;
 }
 
@@ -62,8 +63,9 @@ body{
     border-style: solid;
     border-color: lightcoral;
     height: 100%;
-    width: 100%;
+    width: 96.5%;
     padding: 10px;
+    margin: 0;
 }
 
 .row{
@@ -109,10 +111,10 @@ h3{
 #panda{
     border-color: lightcoral;
     border-style: solid;
-    height: 15%;
-    width: 25%;
-    margin: 75px;
+    height: 250px;
+    width: 350px;
     float: right;
+    margin: 35px 15px 0 15px;
 }
 
 iframe{
